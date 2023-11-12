@@ -1,6 +1,6 @@
-var number = 333
-if (((number % 2) > 0) === true) {
+var number = 24
+if ((number % 2) > 0) {
     console.log("Odd");
-} else (((number % 2) === 0) === true) {
+} else if ((number % 2) === 0) {
     console.log("Even");
 }
