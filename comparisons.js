@@ -18,13 +18,14 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -37,11 +38,14 @@ var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
 
+// The variable friends is created and assigned as 6. The variable siblings is created and assigned as 2. The comparison of is friends greater than siblings is logged and should come out as true.
+
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
 
+//The variables attendees and meals are created and assigned numbers 9 and 8 respectively. The comparison of "is attendees not equal to meals" is logged and the answer should be true.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -63,10 +67,13 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log("Does dog love to play and love treats?", lovesToPlay && lovesTreats);
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log("Does dog love to play or love the dog park?", lovesToPlay || lovesDogPark);
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+console.log("Does dog love to play and is dog a puppy?", lovesToPlay && (age < 2))
